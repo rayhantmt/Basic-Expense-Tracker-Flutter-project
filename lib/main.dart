@@ -14,9 +14,7 @@ void main() {
       debugShowCheckedModeBanner: false,
       darkTheme:ThemeData.dark().copyWith(
         colorScheme: kDarkcolorscheme,
-        cardTheme: CardTheme().copyWith(
-            color: kDarkcolorscheme.secondaryContainer,
-            margin: EdgeInsets.symmetric(horizontal: 10, vertical: 8)),
+     
            elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
             backgroundColor: kDarkcolorscheme.primaryContainer,
@@ -30,9 +28,7 @@ void main() {
           backgroundColor: kColorScheme.onPrimaryContainer,
           foregroundColor: kColorScheme.primaryContainer,
         ),
-        cardTheme: CardTheme().copyWith(
-            color: kColorScheme.secondaryContainer,
-            margin: EdgeInsets.symmetric(horizontal: 10, vertical: 8)),
+    
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
             backgroundColor: kColorScheme.primaryContainer,

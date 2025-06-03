@@ -15,7 +15,8 @@ class Expensel extends StatelessWidget {
               background: Container(
                 color: kColorScheme.error.withOpacity(0.5),
                 margin: EdgeInsets.symmetric(
-                    horizontal: Theme.of(context).cardTheme.margin!.horizontal),
+                  horizontal: Theme.of(context).cardTheme.margin?.horizontal ?? 16.0,
+                ),
               ),
               key: ValueKey(expenses[index]),
               child: ExpenseItem(expenses[index]),
